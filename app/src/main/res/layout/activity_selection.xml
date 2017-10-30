@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+
+    <ImageView
+        android:id="@+id/ivSplash"
+        android:layout_width="match_parent"
+        android:layout_height="165dp"
+        android:width="50dp"
+        android:height="50dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/len" />
+
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/holo_red_dark"
+        android:onClick="boton1"
+        android:text="Español"
+        android:textColor="@android:color/white"
+        android:textSize="60dp"
+        />
+
+</LinearLayout>
